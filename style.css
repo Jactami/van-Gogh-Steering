@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    background-color: #f3f3f3;
+}
+
+#content-container {
+    text-align: center;
+}
+
+#controls-container {
+    margin: 0.5em 0;
+}
+
+#file-input {
+    display: none;
+}
+
+#controls-container .slider-container {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    margin: 0 auto;
+}
+
+
+#parameters-container {
+    display: inline-flex;
+    width: 700px;
+    justify-content: center;
+    border: 2px solid #7d7f7d;
+    border-radius: 25px;
+    text-align: left;
+}
+
+.slider-container {
+    width: 175px;
+    padding: 1em;
+    border-right: 1px solid #7d7f7d;
+}
+
+.slider-container:last-child {
+    border: 0;
+}
+
+.slider-container label,
+.slider-container input {
+    display: block;
+}
